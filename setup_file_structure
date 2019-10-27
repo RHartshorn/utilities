@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#setup screenshot folder in pictures
+mkdir ~/Photos/Screenshots
+
+mkdir ~/Documents/PowerPoint
+

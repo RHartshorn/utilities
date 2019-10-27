@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo This will over write your .bash_profile 
+echo Would you like to proceed?
+
+read premission
+
+if [ "$premission" = yes ]
+then 	
+	echo moving .bash_profile to .local_bash_profile . . .
+	mv ~/.bash_profile ~/.bash_profile_local
+	 
+	echo symlinking to .bash_profile in github . . .  
+	ln -s $PWD/.bash_profile ~/
+
+	echo reloading .bash_profile
+	source ~/.bash_profile
+fi
+
+echo exiting . . .
