@@ -1,6 +1,6 @@
 #commands
-alias ll="ls -l"
-alias lla="ls -Al"
+alias ll="ls -lG"
+alias lla="ls -AlG"
 
 # Prompt to the standard error output before coping a file that would overwrite an existing file.
 alias cp="cp -i"
