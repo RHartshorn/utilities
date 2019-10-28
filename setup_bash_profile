@@ -13,6 +13,9 @@ then
 	echo symlinking to .bash_profile in github . . .  
 	ln -s $PWD/.bash_profile ~/
 
+	echo symlinking to .tmux.conf in github . . .
+        ln -s $PWD/.tmux.conf ~/
+
 	echo reloading .bash_profile
 	source ~/.bash_profile
 fi
