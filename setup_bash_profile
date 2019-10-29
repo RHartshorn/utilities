@@ -9,9 +9,12 @@ if [ "$premission" = yes ]
 then 	
 	echo moving .bash_profile to .local_bash_profile . . .
 	mv ~/.bash_profile ~/.bash_profile_local
-	 
+		 
 	echo symlinking to .bash_profile in github . . .  
 	ln -s $PWD/.bash_profile ~/
+
+	echo symlinking linking .vimrc in github . . .
+	ln -s $PWD/.vimrc ~/
 
 	echo reloading .bash_profile
 	source ~/.bash_profile

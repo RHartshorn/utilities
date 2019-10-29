@@ -18,4 +18,4 @@ alias subl="open /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 defaults write com.apple.screencapture location ~/Pictures/Screenshots
 
 #source .bash_profile_local
-#source ~/.bash_profile_local
+source ~/.bash_profile_local
