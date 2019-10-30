@@ -8,6 +8,11 @@ alias cp="cp -i"
 # Prompt to the standard error output before moving a file that would overwrite an existing file.
 alias mv="mv -i"
 
+# make (create) directory with options:
+# -p : create intermediate directories if required
+# -v : verbose when creating directories listing them as they are created
+alias mkdir="mkdir -p -v"
+
 #Short cuts
 alias gtg="cd ~/Documents/GitHub"
 

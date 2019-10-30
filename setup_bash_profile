@@ -17,7 +17,7 @@ then
 	ln -s $PWD/.vimrc ~/
 
 	echo symlinking to .tmux.conf in github . . .
-    ln -s $PWD/.tmux.conf ~/
+	ln -s $PWD/.tmux.conf ~/
 
 	echo reloading .bash_profile
 	source ~/.bash_profile
