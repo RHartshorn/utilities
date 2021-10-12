@@ -1,7 +1,14 @@
 #!/bin/bash
 
 #setup screenshot folder in pictures
-mkdir ~/Photos/Screenshots
+mkdir /Users/rhartshorn/Pictures/Screenshots
+#setup location for profile pics
+mkdir /Users/rhartshorn/Pictures/ProfileImages
 
-mkdir ~/Documents/PowerPoint
+#setup folder to hold power points
+mkdir /Users/rhartshorn/Documents/PowerPoint
+#setup main github location
+mkdir /Users/rhartshorn/Documents/Github
+#setup test environment
+mkdir /Users/rhartshorn/Documents/TestProjects
 

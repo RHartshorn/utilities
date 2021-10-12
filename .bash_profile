@@ -1,3 +1,6 @@
+#Paths
+export PATH_TO_GIT="/Users/rhartshorn/Documents/Github/"
+
 #commands
 alias ll="ls -lG"
 alias lla="ls -AlG"

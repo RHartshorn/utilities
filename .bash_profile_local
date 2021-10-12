@@ -1,0 +1,12 @@
+source ~/.profile
+
+#setup shortcut for Java
+#export JAVA_HOME=
+
+#add Expedia environment variable for ecomm checkout conductor startup
+#export EXPEDIA_ENVIRONMENT=dev
+
+#add all new paths to path variables
+#export PATH=$PATH:$JAVA_HOME/bin:$JRUBY_HOME
+
+
